@@ -1,0 +1,43 @@
+/* Menghubungkan font dan mengatur posisi ke tengah skrin */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #604ff5d5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Reka bentuk kotak */
+.kotak-jam {
+    background-color: #e9e6f1bb;
+    border: 4px solid #7556ff;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(10, 14, 231, 0.61);
+}
+
+/* Gaya untuk angka jam */
+#waktu {
+    font-size: 60px;
+    font-weight: bold;
+    color: #4305ee;
+    letter-spacing: 2px;
+}
+
+/* Gaya untuk teks tarikh */
+#tanggal {
+    font-size: 20px;
+    color: #1d62f5a2;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+#tanggal-jawa {
+    font-size: 18px;
+    color: #1660cfd2;
+    margin-top: 5px;
+    font-style: italic;
+}
